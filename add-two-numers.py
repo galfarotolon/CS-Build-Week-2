@@ -43,7 +43,7 @@ class Solution(object):
             
             # set curr value to carry
             currentVal = carry
-            # add 1st value to ll1 to 1st value of ll2
+            # add 1st value to ll1 and 1st value of ll2
             currentVal += 0 if p1 is None else p1.val
             currentVal += 0 if p2 is None else p2.val
             
