@@ -34,7 +34,7 @@ class Solution(object):
         carry = 0
        
        # declare curr variable to help traverse
-       # and add notes to the ll
+       # and add nodes to the ll
         head = cur = ListNode(0)
         
         # iterate over pointers and carry

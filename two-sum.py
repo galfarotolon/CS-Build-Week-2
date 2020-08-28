@@ -21,7 +21,10 @@ class Solution(object):
                 result = [d[num], index]
         return result
 
+
+
 s = Solution()
 
 print(s.twoSum([5, 6], 11))
 print(s.twoSum([2, 7, 11, 15], 26))
+
